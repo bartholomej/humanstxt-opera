@@ -1,0 +1,26 @@
+{
+  "extName": {
+    "message": "Humans.txt Detector",
+    "description": "Extension Name"
+  },
+  "extDescription": {
+    "message": "Detect humans.txt for the current web and show it. (What is humans.txt? http://humanstxt.org)",
+    "description": "Extension description"
+  },
+  "showHumanstxt": {
+    "message": "Show Humans.txt",
+    "description": "Button show message"
+    },
+  "openInTab": {
+    "message": "Open in new tab",
+    "description": "Button in popup: Open in new tab"
+  },
+    "theIdea": {
+    "message": "the idea",
+    "description": "Button in popup: The Idea"
+  },
+    "standard": {
+    "message": "Standard",
+    "description": "Standard"
+  }    
+}

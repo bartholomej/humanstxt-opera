@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<style>
+  html,body { font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 10px; font-size: 13px; background: #eaeaea; } 
+  #humansText { font-family: "Courier New", Courier, monospace; white-space: pre-wrap; min-width: 700px; }  
+  #humansLink,#humansLink:visited{
+    font-size: 1em;
+    background-color: #e64b07;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 1em;
+    color: #fff;
+    padding: 0.6em; 
+    vertical-align: middle;
+    margin: 15px;
+/*    display: none;*/
+  }
+  #humansLink:hover{
+  background: #4e4e4e;
+  }
+  .menu{
+    font-size: 0.7em;
+    background-color: #4e4e4e;
+    text-decoration: none;
+    border-radius: 7px;
+    color: #fff;
+    padding: 0.6em; 
+    vertical-align: middle;
+    margin: 2px;
+  }
+  .about,.about:visited {
+    font-size: small;
+    opacity: 0.3; color: black; font-family: "Times New Roman", serif;
+    text-decoration: underline; 
+    margin-left: 0.2em;
+  } 
+  img{
+    height: 50px;
+    vertical-align: middle;
+    }
+
+  #header{
+    padding: 10px 0;
+    display: block;
+    clear: both;
+    height: 60px; 
+    border-bottom: #d1d1d1 1px solid    
+  }
+ .main{
+    background: #fff;
+    padding: 5px 10px;  
+ } 
+</style>
+
+</head>
+<body>
+  <div id="header">    
+    <img src="http://humanstxt.org/img/logo-humans.png" />
+    <a id="humansLink" target="_blank">Open in new tab</a> 
+    <a class="menu" id="theIdea" href="http://humanstxt.org" target="_blank">the idea</a>
+    <a class="menu" id="standard" href="http://humanstxt.org/Standard.html" target="_blank">standard</a>    
+  </div>  
+  <div class="main">    
+    <pre id="humansText"></pre>
+    
+  </div>
+  <script src="jquery.min.js"></script>
+  <script src='popup.js'></script>
+</body>
+</html>

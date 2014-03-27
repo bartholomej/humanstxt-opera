@@ -1,0 +1,27 @@
+{
+  "extName": {
+    "message": "Humans.txt detektor",
+    "description": "Extension Name"
+  },
+  "extDescription": {
+    "message": "Detekuje, zda webová stránka používá humans.txt a zobrazí jeho obsah. (Co je humans.txt? http://humanstxt.org)",
+    "description": "Extension description"
+  },
+  "showHumanstxt": {
+    "message": "Zobrazit Humans.txt",
+    "description": "Button show message"
+    },
+  "openInTab": {
+    "message": "Otevřít na novém listu",
+    "description": "Button in popup: Open in new tab"
+  },
+    "theIdea": {
+    "message": "O projektu",
+    "description": "Button in popup: The Idea"
+  },
+    "standard": {
+    "message": "Standard",
+    "description": "Standard"
+  }      
+}
+                          
